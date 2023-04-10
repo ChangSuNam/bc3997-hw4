@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+  </head>
+  <body>
+     <p>type in your sygus solution</p>
+     <input type="text" id="sygus" value="(define-fun max2 ((x Int) (y Int)) Int (ite (<= x y) y x))"> 
+     <button>generate code</button>
+  </body>
+      <script src="parser.js"></script>
+      <script src="astToJs.js"></script>
+      <script src="main.js"></script>
+</html>
+
+
